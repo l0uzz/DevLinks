@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "Discover"]
+	url = https://github.com/l0uzz/projeto.git
+	fetch = +refs/heads/*:refs/remotes/Discover/*
+[remote "origin"]
+	url = https://github.com/l0uzz/projeto.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
