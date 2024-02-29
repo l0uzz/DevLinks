@@ -1,5 +1,5 @@
-function Hello() {
+function yeah() {
   alert("Welcome to the page");
     
 }
-Hello();
+yeah();

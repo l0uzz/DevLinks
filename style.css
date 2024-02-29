@@ -6,14 +6,15 @@
 
 body {
   background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat; /*Nao repetir imagem dentro do body*/
-  background-position: top center; /*Posicionamento dentro da tela*/
-  background-size: cover; /*Distribuir a imagem dentro de toda a tela*/
+  background-repeat: no-repeat; 
+  background-position: top center; 
+  background-size: cover; 
+  height: 100vh;
 }
 
 body *{
-  font-family: "Inter", sans-serif;/*Aplicar font no body*/
-  color: white;/*Aplica cor na fonte*/
+  font-family: "Inter", sans-serif;
+  color: white;
 }          
 
 #container {
@@ -91,3 +92,6 @@ footer{
   text-align: center;
   font-size: 14px;
 }
+
+@media (min-widht: 700px) {
+  }
